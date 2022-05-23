@@ -223,8 +223,11 @@ def whoToTalkTo():
         print('')
         print("You: Good Evening, Oleksiy. What do you think about the West's Able Archer 83 exercise?")
         time.sleep(2)
-        print("Melnyk: ")
-        
+        print('')
+        print("Melnyk: To me, this seems like nothing more than hidden preparations for the U.S. to launch nuclear weapons against us without fear of retaliation. Well, mostly anyways. We'd still have launchsites and submarine in the field that'd still be able to launch a retaliatory attack if Moscow was directly attacked. I'd propose that we place all our nuclear launchsites on high alert and activate the Dead Hand System. Also, we'll put out a declaration that if that there are any NATO Movements within 100 miles of the USSR's borders, we'll show them where the crawfish spend the winter.")
+        time.sleep(7)
+        print("")
+        print("You: Although this proposal seems rather extreme, I'll keep it in mind. Just in the off chance that everything goes to hell.")
         print('----------------------------------------------------------------------------------------------')
         whoElse = input("Is there anyone else who you want to talk to? (Y for Yes, N for No.) ")
         if whoElse == "Y":
@@ -248,6 +251,16 @@ def talkingOne():
         print('----------------------------------------------------------------------------------------------')
         talkingOne()
 
+def choiceOne():
+    whatDoYouChoose1 = input("So, which course of action do you want to take? (1 for Viktor Chebrikov's proposal to expand espionage operations and prepare a mission to disable the Pershing II Missles, 2 for Anatoly Dobrynin's proposal to keep diplomatic channels open while trying to improve U.S.-U.S.S.R. Relations, or 3 for Oleksiy Melnyk's proposal to activate all nuclear launchsites and be openly hostile to all NATO Movements.) ")
+    if whatDoYouChoose1 = "1":
+        pass
+    elif whatDoYouChoose1 = "2":
+        pass
+    elif whatDoYouChoose1 = "3":
+        pass
+    else:
+        pass
     
 def koreaAirlinesPlane():
     print("""..........................................................................................
@@ -1016,7 +1029,8 @@ print("To make matters worse, two months earlier, a Soviet Sukhoi Su-15 fighter 
 print('----------------------------------------------------------------------------------------------')
 
 talkingOne()
-    
+print('----------------------------------------------------------------------------------------------')
+choiceOne()
 
 
 
